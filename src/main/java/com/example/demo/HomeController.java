@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HomeController {
 
     @RequestMapping("/antipastosalad")
-    public String homePage(){
+    public String antipastoSaladPage(){
 
         return "antipastosalad";
     }
